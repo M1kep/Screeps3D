@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Resources;
@@ -71,9 +71,6 @@ namespace Screeps_API
         {
             try
             {
-                // for some reason the generated xml uses , for decimal in .net standard, I assume it is because the algorithms gets converted to strings
-                xml = xml.Replace(",", ".");
-
                 using (var reader = new StringReader(xml))
                 {
                     var sceneInfo = SVGParser.ImportSVG(reader);
