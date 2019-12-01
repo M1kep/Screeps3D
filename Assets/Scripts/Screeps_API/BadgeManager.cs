@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Resources;
@@ -133,7 +133,7 @@ namespace Screeps_API
 
                 var badgeParams = new SvgParams
                 {
-                    param = (int)badge["param"]?.n,
+                    param = badge["param"]?.n ?? 0,
                     flip = badge["flip"].b,
                 };
 
