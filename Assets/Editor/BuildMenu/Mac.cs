@@ -9,7 +9,7 @@ public class Mac
         if (string.IsNullOrEmpty(path))
         {
             // Get filename.
-            path = EditorUtility.SaveFolderPanel("Choose Location of Built Game", "", "");
+            path = "C:\\Program Files (x86)\\Jenkins\\workspace\\Screeps3D Build";
         }
 
         string[] levels = new string[] {
