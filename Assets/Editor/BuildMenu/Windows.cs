@@ -9,7 +9,7 @@ public class Windows
         if (string.IsNullOrEmpty(path))
         {
             // Get filename.
-            path = "C:\Program Files (x86)\Jenkins\workspace\Screeps3D Build";
+            path = "C:\\Program Files (x86)\\Jenkins\\workspace\\Screeps3D Build";
         }
 
         string[] levels = new string[] {
