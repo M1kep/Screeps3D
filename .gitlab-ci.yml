@@ -60,7 +60,7 @@ get-activation-file:
     - chmod +x ./ci/build.sh && ./ci/build.sh
   artifacts:
     paths:
-      - /project/Builds/
+      - Builds
 #tip: uncomment following lines if you'd like to build only on master branch
 #   only:
 #     - master
